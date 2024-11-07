@@ -45,6 +45,8 @@ img {
 }
 
 .header-menu a {
+    font-family: 'Poppins';
+    font-weight: 400;
     padding: 20px 0px;
     display: inline-block;
     color: #ffffff;
