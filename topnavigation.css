@@ -1,0 +1,19 @@
+.logo {
+    max-width: 100%;
+    
+}
+
+
+li {
+    color: #ffffff;
+}
+
+.topnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 40px;
+}

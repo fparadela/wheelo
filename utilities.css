@@ -1,0 +1,69 @@
+
+
+:root {
+
+    /* Background colors */
+
+    .bg-dark {
+        background-color: #000000;
+    }
+
+    .bg-light {
+        background-color: #ffffff;
+    }
+
+        /* Colors */
+
+    .c12 {
+        background-color: #000000;
+    }
+    
+    .c11 {
+        color: #111111;
+    }
+    
+    .c10 {
+        color: #2e2e2e;
+    }
+    
+    .c9 {
+        color: #404040;
+    }
+    
+    .c8 {
+        color: #595959;
+    }
+    
+    .c7 {
+        color: #717171;
+    }
+    
+    .c6 {
+        color: #9c9c9c;
+    }
+    
+    .c5 {
+        color: #b2b2b2;
+    }
+    
+    .c4 {
+        color: #000000;
+    }
+    
+    .c3 {
+        color: #cccccc;
+    }
+    
+    .c2 {
+        color: #dedede;
+    }
+    
+    .c1 {
+        color: #f7f7f7;
+    }
+    
+    .c0 {
+        color: #ffffff;
+    }
+}
+
