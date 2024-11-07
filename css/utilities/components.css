@@ -1,6 +1,6 @@
 /* Button */
 .button {
-    background: linear-gradient(#FFC107, #f2a50c);
+    background: linear-gradient(var(--color-p1), #f2a50c);
     padding: 16px 32px;
     border-radius: 4px;
     text-transform: uppercase;
@@ -15,9 +15,6 @@
 
 .button:hover {
     background: linear-gradient(#ffb60d, #e59317);
-}
-.button h1 span {
-    color: #FFC107;
 }
 
 @media (max-width: 1200px){

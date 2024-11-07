@@ -1,7 +1,6 @@
 .intro-bg {
-    background: #000000;
-    color: #ffffff;
-    box-shadow: inset 0 -120px white;
+    background: var(--color-12);
+    box-shadow: inset 0 -120px var(--color-0);
 }
 
 .intro {
@@ -29,26 +28,16 @@
 
 .intro h1 {
     margin-bottom: 32px;
-    font-size: 64px;
-    line-height: 1.125;
-    font-family: 'Poppins';
-    font-weight: 600;
 }
 
 .intro p {
-    margin-bottom: 40px;
-    font-size: 24px;
-    line-height: 1.5;
-    color: #b2b2b2;
-    font-family: 'Poppins';
-    font-weight: 400;
-    
+    margin-bottom: 40px;    
 }
 
 @media (max-width: 800px){
     .intro-bg{
         padding-top: 40px;
-        box-shadow: inset 0 -40px #ffffff;
+        box-shadow: inset 0 -40px var(--color-0);
     }
     .intro {
         grid-template-columns: 1fr;
