@@ -37,3 +37,25 @@
         font-size: 1rem;
     }
 }
+
+/* Link in advantages container */
+.link{
+    display: inline-block;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: currentColor;
+    margin-top: 2px;
+    position: absolute;
+}
+
+.link:hover {
+    color: var(--color-0);
+    transition: 0.2s;
+}

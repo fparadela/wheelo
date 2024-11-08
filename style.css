@@ -9,5 +9,8 @@
 /* Utilities */
 @import "./css/utilities/components.css";
 
-/* Bikes */
+/* Bikes container */
 @import "./css/bikes/bikes-list.css";
+
+/* High tech container */
+@import "./css/tech/tech.css";
