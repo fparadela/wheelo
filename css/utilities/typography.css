@@ -1,14 +1,50 @@
-.fs-lg {
-    margin-bottom: 32px;
-    font-size: 64px;
+.fs-xxl {
+    font-size: 4rem;
     line-height: 1.125;
     font-family: 'Poppins';
     font-weight: 600;
 }
 
-.fs-m {
-    font-size: 24px;
+.fs-xl {
+    font-size: 2rem;
+    line-height: 1.25;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.fs-xl {
+    font-size: 1.5rem;
     line-height: 1.5;
     font-family: 'Poppins';
     font-weight: 400;
+}
+
+.fs-m {
+    font-size: 1.125rem;
+    line-height: 1.333;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.fs-m-b {
+    font-size: 1.125rem;
+    line-height: 1.333;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.fs-s {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.fs-xs {
+    font-size: 0.75rem;
+    line-height: 1.333;
+    font-family: 'Poppins';
+    font-weight: 600;
 }

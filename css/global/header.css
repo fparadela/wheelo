@@ -21,11 +21,8 @@
 }
 
 .header-menu a {
-    font-family: 'Poppins';
-    font-weight: 400;
     padding: 20px 0px;
     display: inline-block;
-    font-size: 1.125rem;
     position: relative;
 }
 
