@@ -5,6 +5,8 @@
 
 /* Homepage */
 @import "./css/home/intro.css";
+@import "./css/home/tech.css";
+@import "./css/home/partners.css";
 
 /* Utilities */
 @import "./css/utilities/components.css";
@@ -12,5 +14,3 @@
 /* Bikes container */
 @import "./css/bikes/bikes-list.css";
 
-/* High tech container */
-@import "./css/tech/tech.css";
