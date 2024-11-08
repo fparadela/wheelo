@@ -15,10 +15,20 @@
     color: #332200;
     display: inline-block;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    max-width: max-content;
 }
 
 .button:hover {
     background: linear-gradient(#ffb60d, #e59317);
+}
+
+.button.secundary {
+    background: var(--color-10);
+    color: var(--color-2);
+}
+
+.button.secundary:hover {
+    background: var(--color-9);
 }
 
 @media (max-width: 1200px){
