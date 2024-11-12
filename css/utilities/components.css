@@ -31,6 +31,25 @@
     background: var(--color-9);
 }
 
+.button.arrow {
+    display: flex;
+    align-items: center;
+}
+
+.button.arrow::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-left: 12px;
+    background: url("../../img/icons/arrow.svg");
+    transition: transform 0.2s;
+}
+
+.button.arrow:hover::after {
+    transform: translateX(4px);
+}
+
 @media (max-width: 1200px){
     .button h1 {
         font-size: 3rem;
