@@ -92,3 +92,23 @@
 .bike-specifications span {
     color: var(--color-6);
 }
+
+@media (max-width: 800px){
+    .bike {
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .bike-img {
+        grid-row: 2;
+    }
+}
+
+@media (max-width: 400px){
+    .bike-info {
+        grid-template-columns: 1fr;
+    }
+    .bike-order {
+        grid-template-columns: 1fr;
+    }
+}
