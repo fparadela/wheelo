@@ -39,8 +39,8 @@
 .button.arrow::after {
     content: "";
     display: inline-block;
-    width: 20px;
-    height: 10px;
+    width: 18px;
+    height: 9px;
     margin-left: 12px;
     background: url("../../img/icons/arrow.svg");
     transition: transform 0.2s;
