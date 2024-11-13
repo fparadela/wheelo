@@ -17,6 +17,8 @@
 
 /* Insurances */
 @import "./css/insurances/insurances.css";
+@import "./css/insurances/benefits.css";
+@import "./css/insurances/questions.css";
 
 /* Footer */
 @import "./css/global/footer.css";
