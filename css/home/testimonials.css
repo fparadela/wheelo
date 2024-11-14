@@ -7,6 +7,7 @@
 .testimonials-content {
     align-self: end;
     padding: 40px 40px 80px 80px;
+    background: url(../../img/dec/bottom-right.svg) no-repeat bottom 40px right 40px;
 }
 
 .testimonials p {
@@ -37,6 +38,12 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media (min-width: 1200px){
+    .testimonials img {
+        height: 520px;
+    } 
 }
 
 @media (max-width: 800px){
