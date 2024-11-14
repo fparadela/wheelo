@@ -134,4 +134,53 @@
     gap: 20px;
 }
 
+/* Styling the details of the bikes */
 
+.quote-details {
+    display: none;
+    background: var(--color-0);
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.quote-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.quote-details li img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.quote-product input:checked + label + .quote-details{
+    display: grid;
+}
+
+@media (max-width: 1200px) {
+    .quote-product,
+    .quote-data {
+        padding: 32px;
+    }
+}
+
+@media (max-width: 800px) {
+    .quote {
+        grid-template-columns: 1fr;
+    }
+    .quote-data {
+        border-radius: 0 0 5px 5px;
+    }
+    .quote-product {
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .quote-product {
+        grid-template-columns: 1fr;
+    }
+}
