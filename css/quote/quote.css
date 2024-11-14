@@ -44,3 +44,24 @@
 .quote-data button {
     font-weight: 600;
 }
+
+.quote-product label {
+    background: var(--color-0);
+    padding: 20px;
+    display: inline-block;
+}
+
+.quote-content {
+    padding: 20px;
+    background: #222;
+    margin: 20px 0px;
+    display: none;
+}
+/* Checking radio buttons and showing content */
+
+#wheelo:checked ~ #quote-wheelo,
+#insurance:checked ~ #quote-insurance {
+    display: block;
+}
+
+
