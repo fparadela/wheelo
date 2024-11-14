@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pricing Quotes">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Request a quote | Wheelo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body id="quote">
+    <header class="header-bg">
+        <div class="header container">
+            <a href="./"><img src="./img/logo-white.svg" alt="logo-wheelo-white" class="logo">
+            </a>
+
+            <nav aria-label="primary">
+                <ul class="header-menu fs-m color-0">
+                    <li><a href="./bikes.html">Bikes</a></li>
+                    <li><a href="./insurances.html">Insurances</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="title-bg">
+            <div class="title container">
+                <p class="fs-m-b color-5">Quotes in your email</p>
+                <h1 class="fs-xxl color-0">request a quote<span class="color-p1">.</span></h1>
+            </div>
+        </div>
+
+        <form class="quote container" action="./">
+
+            <div class="quote-product">
+                <h2 class="fs-xs color-5">Wheelo or Insurance?</h2>
+                <input type="radio" name="type" value="wheelo" id="wheelo">
+                <label for="wheelo">Wheelo</label>
+
+                <input type="radio" name="type" value="insurance" id="insurance">
+                <label for="wheelo">Insurance</label>
+
+                <div class="quote-content" id="quote-wheelo">
+                    <h2 class="fs-xs color-5">Choose your Wheelo</h2>
+                </div>
+
+                <div class="quote-content" id="quote-insurance">
+                    <h2 class="fs-xs color-5">Choose your plan</h2>
+                </div>
+            </div>
+
+            <div class="quote-data form">
+                <h2 class="fs-xs color-9 col-2">PERSONAL INFORMATION</h2>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname" name="surname">
+                </div>
+                <div class="col-2">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <h2 class="fs-xs color-9 col-2">DELIVERY</h2>
+                <div>
+                    <label for="zipcode">Zipcode</label>
+                    <input type="text" id="zipcode" name="zipcode">
+                </div>
+                <div>
+                    <label for="house-number">House number</label>
+                    <input type="text" id="house-number" name="house-number">
+                </div>
+                <div class="col-2">
+                    <label for="street">Street</label>
+                    <input type="text" id="street" name="street">
+                </div>
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">
+                </div>
+                <div>
+                    <label for="province">Province</label>
+                    <input type="text" id="province" name="province">
+                </div>
+                <button class="button col-2">Request Quote</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer-bg">
+        <div class="footer container">
+            <div class="footer-container-logo">
+                <img class="logo" src="./img/logo-white.svg" alt="logo wheelo">
+                <div class="footer-item">
+                    <h3 class="fs-l-b color-0">CONTACT</h3>
+                    <ul class="fs-m color-5">
+                        <li><a href="tel:+31855000555">+31  855000555</a></li>
+                        <li><a href="mailto:contact@wheelo.com">contact@wheelo.com</a></li>
+                        <li>Wheelokamp 222 - Amsterdam</li>
+                        <li class="socialmedia"><img src="./img/socialmedia/instagram.svg" alt=""><img src="./img/socialmedia/facebook.svg" alt=""><img src="./img/socialmedia/youtube.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-item info">
+                <h3 class="fs-l-b color-0">INFO</h3>
+                <ul class="fs-m color-5">
+                    <li><a href="./bikes.html">Bikes</a></li>
+                    <li><a href="./insurances.html">Insurances</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <span class="fs-m color-5"> Wheelo © All rights reserved 2024</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
