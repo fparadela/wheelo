@@ -45,7 +45,8 @@
     background: url('../../img/icons/arrow-open.svg');
  }
 
- .questions button:hover::after {
+ .questions button:hover::after,
+ .questions button[aria-expanded="true"]::after {
    transform: rotate(180deg);
  }
 
