@@ -50,6 +50,14 @@
  }
 
  .questions dd {
+   display: none;
+ }
+
+ .questions dd.activated {
+   display: block;
+ }
+
+ .questions dd {
     padding-left: 20px;
     padding-top: 16px;
     max-width: 80ch;
