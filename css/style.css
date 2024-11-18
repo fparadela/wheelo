@@ -12,6 +12,7 @@
 /* Utilities */
 @import "../css/utilities/components.css";
 @import "../css/utilities/form.css";
+@import "../css/utilities/animation.css";
 
 /* Bikes container */
 @import "../css/bikes/bikes-list.css";

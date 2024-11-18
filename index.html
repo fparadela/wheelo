@@ -6,6 +6,8 @@
     <title>Wheelo - Bikes store</title>
     <meta name="description" content="Discover the ultimate in high-precision, premium electric bikes, custom-designed to suit your unique needs. Experience the freedom to explore at your own pace with Wheelo—where quality meets personalization.">
 
+    <link rel="icon" href="./img/icons/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="./img/icons/favicon.svg" type="image/svg+xml">
     <link rel="preload" href="../css/style.css" as="style">
     <link rel="stylesheet" href="../css/style.css">
 
@@ -33,17 +35,17 @@
     <main class="intro-bg">
         <div class="intro container">
             <div class="intro-content">
-                <h1 class="fs-xxl color-0">Bikes tailored just for you<span class="color-p1">.</span></h1>
-                <p class="fs-m color-5">We offer high-precision, premium electric bikes crafted to your exact specifications. Designed for superior performance and personalized comfort, our bikes empower you to explore the world at your own pace.</p>
-                <a class="button fs-m-b" href="./bikes.html">Choose a bike</a>
+                <h1 class="fs-xxl color-0 fadeInDown" data-anime="200">Bikes tailored just for you<span class="color-p1">.</span></h1>
+                <p class="fs-m color-5 fadeInDown" data-anime="400">We offer high-precision, premium electric bikes crafted to your exact specifications. Designed for superior performance and personalized comfort, our bikes empower you to explore the world at your own pace.</p>
+                <a class="button fs-m-b fadeInDown" data-anime="600" href="./bikes.html">Choose a bike</a>
             </div>
-            <picture><img src="./img/photos/intro.jpg" width="1280" height="1600" alt="bike"></picture>
+            <picture><img src="./img/photos/intro.jpg" class="fadeInDown" data-anime="800" width="1280" height="1600" alt="bike"></picture>
         </div>
     </main>
 
     <article class="bikes-list">
-        <h2 class="container fs-xxl">Make your choice<span class="color-p1">.</span></h2>
-               <ul class="bikes-list-container">
+        <h2 class="container fs-xxl" data-anime="850">Make your choice<span class="color-p1">.</span></h2>
+               <ul class="bikes-list-container fadeInLeft" data-anime="900">
                     <li>
                         <a href="./bikes/magic.html">
                         <img src="./img/bikes/velvet-home.jpg" width="920" height="1040" alt="Dark Velvet">
@@ -210,6 +212,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html> 

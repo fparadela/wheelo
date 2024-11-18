@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Insurances">
-        <link rel="preload" href="../css/style.css" as="style">
+        <link rel="icon" href="./img/icons/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="../css/style.css" as="style">
     <link rel="stylesheet" href="../css/style.css">
     <title>Insurances | Wheelo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,14 +29,14 @@
         </div>
     </header>
     <main class="insurances-bg">
-        <div class="title-bg">
+        <div class="title-bg" data-anime="200">
             <div class="title container">
                 <p class="fs-m-b color-5">CHOOSE YOUR INSURANCE</p>
                 <h1 class="fs-xxl color-0">you insured<span class="color-p1">.</span></h1>
             </div>
         </div>
             <div class="insurances container">
-                <div class="insurances-item">
+                <div class="insurances-item fadeInLeft" data-anime="400">
                     <h3 class="fs-xl color-6">SILVER</h3>
                     <span class="fs-xl color-0">€199<span class="fs-s color-6">monthly</span></span>
                     <ul class="fs-m color-0">
@@ -58,7 +59,7 @@
                     </ul>
                     <a class="button secundary" href="./quote.html?type=insurance&product=silver">Sign up</a>
                 </div>
-                <div class="insurances-item">
+                <div class="insurances-item fadeInRight" data-anime="600">
                     <h3 class="fs-xl color-p1">GOLD</h3>
                     <span class="fs-xl color-0">€299<span class="fs-s color-6">monthly</span></span>
                     <ul class="fs-m color-0">
@@ -93,9 +94,9 @@
     </main>
     
     <article class="benefits-bg">
-        <div class="benefits container">
+        <div class="benefits container" data-anime="800">
             <h2 class="fs-xxl color-0">our benefits<span class="color-p1">.</span></h2>
-            <ul>
+            <ul class="fadeInLeft" data-anime="600">
                 <li>
                     <img src="./img/icons/electric.svg" width="32" height="32" alt="bike-icon">
                     <h3 class="fs-l color-0">Electric Repair</h3>
@@ -193,6 +194,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html> 

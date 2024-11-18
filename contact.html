@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact Wheelo">
-        <link rel="preload" href="../css/style.css" as="style">
+        <link rel="icon" href="./img/icons/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="../css/style.css" as="style">
     <link rel="stylesheet" href="../css/style.css">
     <title>Contact | Wheelo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,14 +29,14 @@
         </div>
     </header>
     <main>
-        <div class="title-bg">
+        <div class="title-bg" data-anime="200">
             <div class="title container">
                 <p class="fs-m-b color-5">Responses within 24 hours</p>
                 <h1 class="fs-xxl color-0">contact us<span class="color-p1">.</span></h1>
             </div>
         </div>
 
-        <div class="contact container">
+        <div class="contact container fadeInLeft" data-anime="400">
             <section class="contact-data" aria-label="Adress">
                 <h2 class="fs-m color-0">Online Store</h2>
                 <div class="contact-adress font-s color-4">
@@ -78,7 +79,7 @@
         </div>  
     </main>
 
-    <article class="stores container">
+    <article class="stores container fadeInLeft" data-anime="600">
         <h2 class="fs-xxl">Our Stores<span class="color-p1">.</span></h2>
         <div class="stores-item">
             <img src="./img/stores/Ams.jpg" width="1120" height="520" alt="map showing the address in Wheelokamp, 222 -  Amsterdam - The Netherlands">
@@ -142,6 +143,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html> 

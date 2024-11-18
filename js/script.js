@@ -75,3 +75,9 @@ function galleryEvents(img) {
 }
 
 gallery.forEach(galleryEvents);
+
+
+// Animation - activate plugin
+if (window.SimpleAnime) { // if simple anime exists, activate function
+    new SimpleAnime();
+}
