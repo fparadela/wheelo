@@ -54,3 +54,20 @@ function eventsQuestions(question) {
 }
 
 questions.forEach(eventsQuestions); // Apply the eventsQuestions function to each question button
+
+// Bikes gallery
+
+const gallery = document.querySelectorAll(".bike-img img");
+const galleryContainer = document.querySelector(".bike-img");
+
+function changeImage(event){
+    const img = event.currentTarget;
+    galleryContainer.prepend(img);
+    console.log(img);
+}
+
+function galleryEvents(img) {
+    img.addEventListener('click', changeImage);
+}
+
+gallery.forEach(galleryEvents);
