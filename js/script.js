@@ -62,9 +62,13 @@ const galleryContainer = document.querySelector(".bike-img");
 
 function changeImage(event){
     const img = event.currentTarget;
-    galleryContainer.prepend(img);
-    console.log(img);
-}
+    const media = window.matchMedia("(min-width : 920px)").matches;
+
+    if (media) {
+        galleryContainer.prepend(img);
+    }
+    }
+
 
 function galleryEvents(img) {
     img.addEventListener('click', changeImage);
